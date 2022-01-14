@@ -10,3 +10,5 @@ PHP 8.0.5.<br>
 <br>docker-compose run composer create-project --prefer-dist laravel/laravel .
 
 <br>sudo chmod -R 777 src
+
+<br>docker-compose run artisan migrate (Exemplo de rodar o php artisan no docker)

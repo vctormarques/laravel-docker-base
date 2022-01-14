@@ -1,13 +1,12 @@
-Base para laravel 8
-PHP 8.0.5.
--porta: 7000
--banco local: 9306
--banco docker: 3306
+Base para laravel 8<br>
+PHP 8.0.5.<br>
+-porta: 7000<br>
+-banco local: 9306<br>
+-banco docker: 3306<br>
 
+<br>git clone projeto
+<br>docker-compose up -d --build
 
-git clone projeto
-docker-compose up -d --build
+<br>docker-compose run composer create-project --prefer-dist laravel/laravel .
 
-docker-compose run composer create-project --prefer-dist laravel/laravel .
-
-sudo chmod -R 777 src
+<br>sudo chmod -R 777 src
